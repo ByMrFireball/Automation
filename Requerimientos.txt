@@ -1,0 +1,6 @@
+Yo como usuario deseo reservar un vuelo de medellín a orlando del 25 de julio del 2024 al 02 de agosto y van a viajar tres adultos, dos niños y un bebe.
+de los resultados de la busqueda del vuelo se debe de seleccionar el viaje mas economico realizando un filtro de los resultados con el signo doble pesos($$) se puede retornar una lista de los elementos
+con webdriverio y la tarifa debe ser la básica.
+El viaje de regreso deben seleccionar el más caro, despues de tener estos dos seleccionados vamos a personalizar el viaje, y van a registrar un adulto y un niño, debe llenar los datos del formulario de cada pasajero.
+Despues de llenar todos los datos en personaliza tu viaje, vamos a añadir asistencia de viaje.
+	- Validar que el valor de los tiquetes por persona más el valor de la asistencia de viaje sea igual al total que sale en personaliza tu viaje
