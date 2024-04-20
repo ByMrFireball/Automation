@@ -1,6 +1,6 @@
 import Page from "./page"; // Importar la clase Page
 
-class FlightSearch extends Page { // Crear la clase FlightSearch heredando de Page
+export default class FlightSearch extends Page { // Crear la clase FlightSearch heredando de Page
     // Seleccionar la casilla de origen e ingresar Medellín
     public get FlightOrigin() { // Origen del vuelo
         return $('.//button[@id="originBtn"]');
