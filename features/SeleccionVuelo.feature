@@ -6,7 +6,7 @@ Feature: Avianca fligt select
     When the user click on the button <btnvuelodirecto> and click on <btnmejorprecio>
     And select the flight whit a best price <mejorprecio> and click on the basic plan <tarifa>
     And user select more expensive return flight <precioalto> and the basic plan <tarifa> 
-    Then the user can click on the continue button <continuar>
+    Then the user can click on the continue button continuar
     
     Examples:
     | btnvuelodirecto | btnmejorprecio | mejorprecio | tarifa | precioalto | continuar |
